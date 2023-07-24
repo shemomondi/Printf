@@ -23,9 +23,9 @@ int _printf(const char *format, ...)
         }
         else
         {
-            format++; /* Skip the '%'*/
+            format++;
 
-            /* Handle the format specifiers*/
+            
             switch (*format)
             {
                 case 'c':
